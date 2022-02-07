@@ -1,6 +1,6 @@
 html {
 	color: white;
-	background: #57cfa7;
+	background: #57a;
 	padding: 1%;
 }
 * {
@@ -13,7 +13,7 @@ html {
 
 /*styles the main boxes displayed (header and columns)*/
 .box {
-	background-color: #007552;
+	background-color: #75abab;
 	border: 2px solid #000000;
 }
 
