@@ -1,0 +1,87 @@
+html {
+	color: white;
+	background: #57cfa7;
+	padding: 1%;
+}
+* {
+  box-sizing: border-box;
+	margin: 0px;
+}
+
+
+
+
+/*styles the main boxes displayed (header and columns)*/
+.box {
+	background-color: #007552;
+	border: 2px solid #000000;
+}
+
+
+
+
+/*styles the header*/
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/*sets styles for the divs under the header*/
+.column {
+  float: left;
+  padding: 15px;
+}
+/*changes width of columbs after page width is less than 600px*/
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+/*styles the main body of the table*/
+table{
+	border: 2px solid #000000;
+	background-color: #277a51;
+	width:100%; height:100%;
+}
+th, td {
+  border: 1px solid #000000;
+	background-color: #165335;
+}
+
+
+
+
+/*styles the main body of the talley counter*/
+.talleyStyle {
+	background-color:#c2b9b9;
+	border:2px solid black;
+	padding:5px;
+	float:left;
+	border-radius:10%;
+}
+/*for the + and - buttons used in the table so that they display vertical*/
+.f {
+	float: left;
+	padding:3px;
+}
+
+
+
+
+/*for both the buttons under the heddings and the buttons in the table*/
+.tORsButton { 
+  background-color: #121120;
+  color: white;
+  border: 0px #121120;
+}
+.tORsButton:hover{
+	background-color: #a6a3ca;
+  color: black;
+}
